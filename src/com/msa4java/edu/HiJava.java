@@ -11,7 +11,8 @@ public class HiJava {
         System.out.print(2);
         System.out.println(2);
 
-        // "안녕 자바 : 54"를 출력
+        // print: 를 활용하여 글 출력
+            // "안녕 자바 : 54"를 출력
         String str = "자바";
         int num = 54;
         System.out.printf("안녕 %s : %d", str, num);
