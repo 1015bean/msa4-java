@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 
 // oop -> 클래스와 객체
 // class(객체의 기본 틀) 생성 후 클래스를 참고하는 객체 생성

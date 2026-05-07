@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 
 public class MainOOP {
     public static void main(String[] args) {
@@ -22,5 +22,23 @@ public class MainOOP {
         overloading.print();
         overloading.print('a');
         overloading.print(1, 2);
+
+        // -------------------------------------------------------
+        // 생성자
+        ConJava conJava = new ConJava(20);  // "테스트 실행됨" 출력
+        ConJava conJava1 = new ConJava(35); // "테스트 실행됨" 출력
+
+        System.out.println(conJava.age);  // "20" 출력
+        System.out.println(conJava1.age); // "35" 출력
+
+        // -------------------------------------------------------
+        // this 메소드 & this 참조 변수(getter/setter 메소드)
+        Marine marine = new Marine(10, 0, 25);
+        System.out.println(marine.getHp()); // 10
+        marine.setHp(30);
+        System.out.println(marine.getHp());  // 30
+
+        Marine marine2 = new Marine();
+        System.out.println(marine2.getHp());  // 40
     }
 }

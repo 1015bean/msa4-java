@@ -1,4 +1,4 @@
-package com.msa4java.edu.oop;
+package com.msa4java.edu.oop.basic;
 
 public class AccessModifier {
     // 접근제어지시자: 외부에서의 접근을 통제하기 위해 필드&메소드 앞에 작성
